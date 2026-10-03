@@ -4,8 +4,8 @@ const CONFIG = {
 };
 
 const mcHosting = [
-    { name:'MC Basic', price:10000, ram:'2 GB RAM', storage:'10 GB SSD', cpu:'2 vCPU', slots:'20 Slot Player', bandwidth:'Unlimited Bandwidth', emoji:'⛏️', featured:false },
-    { name:'MC Standard', price:20000, ram:'4 GB RAM', storage:'20 GB SSD', cpu:'3 vCPU', slots:'40 Slot Player', bandwidth:'Unlimited Bandwidth', emoji:'⚔️', featured:true },
+    { name:'MC Basic', price:15000, ram:'2 GB RAM', storage:'10 GB SSD', cpu:'2 vCPU', slots:'20 Slot Player', bandwidth:'Unlimited Bandwidth', emoji:'⛏️', featured:false },
+    { name:'MC Standard', price:25000, ram:'4 GB RAM', storage:'20 GB SSD', cpu:'3 vCPU', slots:'40 Slot Player', bandwidth:'Unlimited Bandwidth', emoji:'⚔️', featured:true },
     { name:'MC Premium', price:35000, ram:'6 GB RAM', storage:'30 GB SSD', cpu:'4 vCPU', slots:'60 Slot Player', bandwidth:'Unlimited Bandwidth', emoji:'🏆', featured:false },
     { name:'MC Ultimate', price:50000, ram:'8 GB RAM', storage:'50 GB SSD', cpu:'6 vCPU', slots:'100 Slot Player', bandwidth:'Unlimited Bandwidth', emoji:'💎', featured:false },
     { name:'MC Extreme', price:75000, ram:'12 GB RAM', storage:'80 GB NVMe SSD', cpu:'8 vCPU', slots:'150 Slot Player', bandwidth:'Unlimited Bandwidth', emoji:'🚀', featured:false },
@@ -16,28 +16,28 @@ const mcHosting = [
 
 // SA:MP prices are Rp3.000 lower than the reference poster.
 const sampHosting = [
-    { name:'SA:MP 1GB', price:12000, ram:'1 GB RAM', storage:'10 GB NVMe SSD', cpu:'1 vCPU Core', database:'1 Database', ports:'1 Extra Port', backups:'1 Backup Slot', emoji:'🎮', featured:false, note:'Cocok untuk server kecil / testing.' },
-    { name:'SA:MP 2GB', price:26000, ram:'2 GB RAM', storage:'20 GB NVMe SSD', cpu:'2 vCPU Core', database:'1 Database', ports:'1 Extra Port', backups:'1 Backup Slot', emoji:'🔥', featured:true, note:'Pilihan tepat untuk komunitas kecil.' },
-    { name:'SA:MP 4GB', price:42000, ram:'4 GB RAM', storage:'40 GB NVMe SSD', cpu:'3 vCPU Core', database:'2 Database', ports:'2 Extra Port', backups:'2 Backup Slot', emoji:'🚗', featured:false, note:'Untuk server dengan fitur lebih lengkap.' },
-    { name:'SA:MP 6GB', price:66000, ram:'6 GB RAM', storage:'60 GB NVMe SSD', cpu:'4 vCPU Core', database:'2 Database', ports:'2 Extra Port', backups:'3 Backup Slot', emoji:'🏙️', featured:false, note:'Cocok untuk medium server.' },
-    { name:'SA:MP 8GB', price:86000, ram:'8 GB RAM', storage:'80 GB NVMe SSD', cpu:'5 vCPU Core', database:'2 Database', ports:'2 Extra Port', backups:'4 Backup Slot', emoji:'🛠️', featured:false, note:'Stabil untuk server besar.' },
-    { name:'SA:MP 10GB', price:106000, ram:'10 GB RAM', storage:'80 GB NVMe SSD', cpu:'5 vCPU Core', database:'2 Database', ports:'2 Extra Port', backups:'4 Backup Slot', emoji:'⚡', featured:false, note:'Performa lebih maksimal.' },
-    { name:'SA:MP 12GB', price:136000, ram:'12 GB RAM', storage:'120 GB NVMe SSD', cpu:'6 vCPU Core', database:'2 Database', ports:'3 Extra Port', backups:'4 Backup Slot', emoji:'🎯', featured:false, note:'Untuk server dengan banyak player.' },
-    { name:'SA:MP 14GB', price:156000, ram:'14 GB RAM', storage:'140 GB NVMe SSD', cpu:'6 vCPU Core', database:'2 Database', ports:'3 Extra Port', backups:'4 Backup Slot', emoji:'🏆', featured:false, note:'Stabilitas tinggi untuk jangka panjang.' },
-    { name:'SA:MP 16GB', price:176000, ram:'16 GB RAM', storage:'120 GB NVMe SSD', cpu:'6 vCPU Core', database:'2 Database', ports:'4 Extra Port', backups:'4 Backup Slot', emoji:'💥', featured:false, note:'Untuk server besar dan kompleks.' },
-    { name:'SA:MP 18GB', price:206000, ram:'18 GB RAM', storage:'120 GB NVMe SSD', cpu:'6 vCPU Core', database:'3 Database', ports:'4 Extra Port', backups:'4 Backup Slot', emoji:'🚀', featured:false, note:'Performa & stabilitas seimbang.' },
-    { name:'SA:MP 20GB', price:226000, ram:'20 GB RAM', storage:'150 GB NVMe SSD', cpu:'6 vCPU Core', database:'4 Database', ports:'4 Extra Port', backups:'4 Backup Slot', emoji:'👑', featured:false, note:'Cocok untuk komunitas besar.' },
-    { name:'SA:MP 24GB', price:276000, ram:'24 GB RAM', storage:'150 GB NVMe SSD', cpu:'7 vCPU Core', database:'4 Database', ports:'5 Extra Port', backups:'5 Backup Slot', emoji:'🌟', featured:false, note:'Untuk server high load.' },
-    { name:'SA:MP 32GB', price:371000, ram:'32 GB RAM', storage:'200 GB NVMe SSD', cpu:'8 vCPU Core', database:'4 Database', ports:'5 Extra Port', backups:'5 Backup Slot', emoji:'💎', featured:false, note:'Performa maksimal, tanpa kompromi.' },
-    { name:'SA:MP 48GB', price:563000, ram:'48 GB RAM', storage:'250 GB NVMe SSD', cpu:'10 vCPU Core', database:'5 Database', ports:'5 Extra Port', backups:'5 Backup Slot', emoji:'🔥', featured:false, note:'Untuk server dengan kebutuhan ekstra.' },
+    { name:'SA:MP 1GB', price:10000, ram:'1 GB RAM', storage:'10 GB NVMe SSD', cpu:'1 vCPU Core', database:'1 Database', ports:'2 Extra Port', backups:'1 Backup Slot', emoji:'🎮', featured:false, note:'Cocok untuk server kecil / testing.' },
+    { name:'SA:MP 2GB', price:20000, ram:'2 GB RAM', storage:'20 GB NVMe SSD', cpu:'2 vCPU Core', database:'1 Database', ports:'2 Extra Port', backups:'1 Backup Slot', emoji:'🔥', featured:true, note:'Pilihan tepat untuk komunitas kecil.' },
+    { name:'SA:MP 4GB', price:35000, ram:'4 GB RAM', storage:'40 GB NVMe SSD', cpu:'3 vCPU Core', database:'2 Database', ports:'2 Extra Port', backups:'2 Backup Slot', emoji:'🚗', featured:false, note:'Untuk server dengan fitur lebih lengkap.' },
+    { name:'SA:MP 6GB', price:40000, ram:'6 GB RAM', storage:'60 GB NVMe SSD', cpu:'4 vCPU Core', database:'2 Database', ports:'2 Extra Port', backups:'3 Backup Slot', emoji:'🏙️', featured:false, note:'Cocok untuk medium server.' },
+    { name:'SA:MP 8GB', price:55000, ram:'8 GB RAM', storage:'80 GB NVMe SSD', cpu:'5 vCPU Core', database:'2 Database', ports:'2 Extra Port', backups:'4 Backup Slot', emoji:'🛠️', featured:false, note:'Stabil untuk server besar.' },
+    { name:'SA:MP 10GB', price:70000, ram:'10 GB RAM', storage:'80 GB NVMe SSD', cpu:'5 vCPU Core', database:'2 Database', ports:'2 Extra Port', backups:'4 Backup Slot', emoji:'⚡', featured:false, note:'Performa lebih maksimal.' },
+    { name:'SA:MP 12GB', price:85000, ram:'12 GB RAM', storage:'120 GB NVMe SSD', cpu:'6 vCPU Core', database:'2 Database', ports:'3 Extra Port', backups:'4 Backup Slot', emoji:'🎯', featured:false, note:'Untuk server dengan banyak player.' },
+    { name:'SA:MP 14GB', price:95000, ram:'14 GB RAM', storage:'140 GB NVMe SSD', cpu:'6 vCPU Core', database:'2 Database', ports:'3 Extra Port', backups:'4 Backup Slot', emoji:'🏆', featured:false, note:'Stabilitas tinggi untuk jangka panjang.' },
+    { name:'SA:MP 16GB', price:110000, ram:'16 GB RAM', storage:'120 GB NVMe SSD', cpu:'6 vCPU Core', database:'2 Database', ports:'4 Extra Port', backups:'4 Backup Slot', emoji:'💥', featured:false, note:'Untuk server besar dan kompleks.' },
+    { name:'SA:MP 18GB', price:125000, ram:'18 GB RAM', storage:'120 GB NVMe SSD', cpu:'6 vCPU Core', database:'3 Database', ports:'4 Extra Port', backups:'4 Backup Slot', emoji:'🚀', featured:false, note:'Performa & stabilitas seimbang.' },
+    { name:'SA:MP 20GB', price:156000, ram:'20 GB RAM', storage:'150 GB NVMe SSD', cpu:'6 vCPU Core', database:'4 Database', ports:'4 Extra Port', backups:'4 Backup Slot', emoji:'👑', featured:false, note:'Cocok untuk komunitas besar.' },
+    { name:'SA:MP 24GB', price:175000, ram:'24 GB RAM', storage:'150 GB NVMe SSD', cpu:'7 vCPU Core', database:'4 Database', ports:'5 Extra Port', backups:'5 Backup Slot', emoji:'🌟', featured:false, note:'Untuk server high load.' },
+    { name:'SA:MP 32GB', price:190000, ram:'32 GB RAM', storage:'200 GB NVMe SSD', cpu:'8 vCPU Core', database:'4 Database', ports:'5 Extra Port', backups:'5 Backup Slot', emoji:'💎', featured:false, note:'Performa maksimal, tanpa kompromi.' },
+    { name:'SA:MP 48GB', price:220000, ram:'48 GB RAM', storage:'250 GB NVMe SSD', cpu:'10 vCPU Core', database:'5 Database', ports:'5 Extra Port', backups:'5 Backup Slot', emoji:'🔥', featured:false, note:'Untuk server dengan kebutuhan ekstra.' },
     { name:'SA:MP 64GB', price:null, ram:'64 GB RAM', storage:'300 GB NVMe SSD', cpu:'10 vCPU Core', database:'5 Database', ports:'5 Extra Port', backups:'5 Backup Slot', emoji:'☄️', featured:false, outOfStock:true, note:'Saat ini sedang habis.' }
 ];
 
 const botServices = [
-    { name:'Bot WA Basic', price:15000, features:['Fitur Basic','Auto Reply','Support 1 Bulan','1 Nomor WA'], emoji:'🤖' },
-    { name:'Bot WA Pro', price:30000, features:['Fitur Lengkap','Custom Command','Support 2 Bulan','3 Nomor WA'], emoji:'💬' },
-    { name:'Bot Discord Basic', price:15000, features:['Fitur Basic','Music Player','Support 1 Bulan','1 Server'], emoji:'🎮' },
-    { name:'Bot Discord Pro', price:35000, features:['Fitur Lengkap','Custom Command','Support 2 Bulan','Unlimited Server'], emoji:'⚡' }
+    { name:'Bot WA Basic', price:5000, features:['Fitur Basic','Auto Reply','Support 1 Bulan','1 Nomor WA'], emoji:'🤖' },
+    { name:'Bot WA Pro', price:10000, features:['Fitur Lengkap','Custom Command','Support 2 Bulan','3 Nomor WA'], emoji:'💬' },
+    { name:'Bot Discord Basic', price:5000, features:['Fitur Basic','Music Player','Support 1 Bulan','1 Server'], emoji:'🎮' },
+    { name:'Bot Discord Pro', price:10000, features:['Fitur Lengkap','Custom Command','Support 2 Bulan','Unlimited Server'], emoji:'⚡' }
 ];
 
 function formatPrice(price) { return new Intl.NumberFormat('id-ID').format(price); }
